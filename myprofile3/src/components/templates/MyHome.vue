@@ -1,17 +1,17 @@
 <template>
   <div>
-    <my-page-title title="Home"></my-page-title>
+    <my-home-section></my-home-section>
   </div>
 </template>
 
 <script>
-  import MyPageTitle from '@/components/atoms/MyPageTitle'
+  import MyHomeSection from '@/components/organsms/MyHomeSection'
 
 
   export default {
     name: "MyHome",
     components: {
-      MyPageTitle,
+      MyHomeSection,
     },
   }
 </script>

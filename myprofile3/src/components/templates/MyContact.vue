@@ -1,23 +1,17 @@
 <template>
   <div>
-    <my-page-title title="Contact"></my-page-title>
-    <p>aaaaaa</p>
-    <p>aaaaaa</p>
-    <h1>ああああああわｗｄ！！</h1>
-    <p>aaaaaa</p>
-    <p>aaaaaa</p>
-    <h1>ああああああわｗｄ！！</h1>
+    <my-contact-section></my-contact-section>
   </div>
 </template>
 
 <script>
-  import MyPageTitle from '@/components/atoms/MyPageTitle'
+  import MyContactSection from '@/components/organsms/MyContactSection'
 
 
   export default {
     name: "MyContact",
     components: {
-      MyPageTitle,
+      MyContactSection,
     },
   }
 </script>

@@ -12,7 +12,7 @@
         <th>Location</th><td>Ishikawa Japan</td>
       </tr>
       <tr>
-        <th>Job</th><td>大学生2年生</td>
+        <th>Job</th><td>大学2年生</td>
       </tr>
       <tr>
         <th>Love</th><td>プログラミング 自己分析</td>

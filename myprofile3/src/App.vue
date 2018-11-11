@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <my-nav class="nav"></my-nav>
-    <div class="main">
+    <my-nav :class="isNav"></my-nav>
+    <a @click="toggle"><my-hamburger class="hamburger"></my-hamburger></a>
+    <div :class="main">
       <transition name="router-transition" enter-active-class="animate-fixed animated fadeInDown"
                   leave-active-class="animate-fixed animated fadeOutDown">
         <router-view class="router-margin"/>
@@ -12,12 +13,32 @@
 
 <script>
   import MyNav from "@/components/organsms/MyNav"
+  import MyHamburger from "@/components/atoms/MyHumburger"
 
   export default {
     components: {
       MyNav,
+      MyHamburger
     },
-    name: 'App'
+    data() {
+      return {
+        isActive: true,
+      }
+    },
+    computed: {
+      isNav () {
+        return this.isActive ? this.nav.nav1 : this.nav.nav2
+      },
+      main () {
+        return this.isActive ? this.nav.main1 : this.nav.main2
+      }
+    },
+    name: 'App',
+    methods: {
+      toggle: function () {
+        this.isActive = !this.isActive
+      }
+    }
   }
 </script>
 
@@ -34,6 +55,10 @@
     height: 100vh;
     text-align: left;
     margin: 0 auto;
+  }
+  .hamburger {
+    position: absolute;
+    margin: 10px;
   }
 
   .main {
@@ -65,8 +90,67 @@
     color: #949da1;
   }
 
+  .close-nav {
+    overflow:auto;
+    width: 0;
+    float: left;
+    background: #37474f;
+    height: 100vh;
+    color: #949da1;
+  }
+
   .animate-fixed {
     position: fixed;
     width: inherit;
+  }
+</style>
+
+<style module="nav">
+  .nav1 {
+    overflow: auto;
+    width: 15%;
+    float: left;
+    background: #37474f;
+    height: 100vh;
+    color: #949da1;
+    transition: all 0.4s ease 0s;
+  }
+  .nav2 {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0s;
+
+  }
+
+  .main1 {
+    overflow:auto;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    width: 85%;
+    float: right;
+    text-align: center;
+    color: black;
+    background: #fcfcf3;
+    box-shadow: 5px 0 20px rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease 0s;
+
+  }
+  .main2 {
+    overflow:auto;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    width: 100%;
+    float: right;
+    text-align: center;
+    color: black;
+    background: #fcfcf3;
+    box-shadow: 5px 0 20px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease 0s;
   }
 </style>

@@ -11,7 +11,7 @@
       <div class="card">
         <a class="card-link" href="">
           <img src="../../assets/screen.png"/>
-          <my-card title="Gistsアプリ" description="git-push-hackathonで制作したWEBアプリです。GithubのOAth認証、GistsAPIを用いてGistsの一覧の表示、Gists投稿などができます。ハッカソンは参加者方のレベルの高さに驚かされました。" useTech1="Laravel" useTech2="Scss" date="2018/10/23" class="card-content"></my-card>
+          <my-card title="Gistsアプリ" description="git-push-hackathonで制作したWEBアプリです。GithubのOAuth認証、GistsAPIを用いてGistsの一覧の表示、Gists投稿などができます。ハッカソンは参加者方のレベルの高さに驚かされました。" useTech1="Laravel" useTech2="Scss" date="2018/10/23" class="card-content"></my-card>
         </a>
       </div>
       <div class="card">
@@ -23,7 +23,7 @@
       <div class="card">
         <a class="card-link" href="">
           <img src="../../assets/logo.png"/>
-          <my-card title="ProgramLanguageGraph" description="Githubのリポジトリ数を毎日取得し、データベースに格納し、グラフを使って視覚化します。" useTech1="Python" useTech2="Docker" date="2018/9/19(作成途中)" class="card-content"></my-card>
+          <my-card title="ProgramLanguageGraph" description="Githubのリポジトリ数を毎日取得し、データベースに格納し、グラフを使って視覚化します。Dockerを使っているので、低リソースですべて同じ環境を提供することが出来ます。" useTech1="Python" useTech2="Docker" date="2018/9/19(作成途中)" class="card-content"></my-card>
         </a>
       </div>
       <div class="card">
@@ -35,7 +35,7 @@
       <div class="card">
         <a class="card-link" href="">
           <img src="../../assets/logo.png"/>
-          <my-card title="GetTemperature" description="インターンシップでIOTについて学びました。初めてRubyとIoTを触り、非常に楽しかった思い出です。ソースについては許可を頂いています。" useTech1="Ruby" useTech2="IoT" date="2018/9/5" class="card-content"></my-card>
+          <my-card title="GetTemperature" description="インターンシップでIOTについて学びました。初めてRubyとIoTを触り、非常に楽しかった思い出です。ソースの公開については許可を頂いています。" useTech1="Ruby" useTech2="IoT" date="2018/9/5" class="card-content"></my-card>
         </a>
       </div>
       <div class="card">
@@ -69,7 +69,7 @@
 
 <style scoped>
   * {
-    transition: all 0.35s ease 0s;
+    transition: all 0.40s ease 0s;
   }
 
   img {
@@ -98,6 +98,7 @@
 
   .card:hover {
     opacity: 0.6;
+    transform: scale(1.03,1.03);
   }
 
   .card-content {
