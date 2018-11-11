@@ -5,8 +5,10 @@ import Home from '@/components/templates/MyHome'
 import About from '@/components/templates/MyAbout'
 import Work from '@/components/templates/MyWork'
 import Contact from '@/components/templates/MyContact'
+import VueTyper from 'vue-typer'
 
 Vue.use(Router)
+Vue.use(VueTyper)
 
 export default new Router({
   routes: [

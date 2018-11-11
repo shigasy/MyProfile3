@@ -1,6 +1,7 @@
 <template>
   <div>
     <my-home-section></my-home-section>
+
   </div>
 </template>
 

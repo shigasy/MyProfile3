@@ -75,21 +75,16 @@
   img {
     width: 280px;
     height: 168px;
-    /*border-radius: 5px 5px 0 0;*/
-    /*max-width: 100%;*/
   }
 
   .card-section {
     display: flex;
     flex-wrap: wrap;
-    /*margin: 20px 50px;*/
   }
 
   .card {
     width: 280px;
     min-height: 380px;
-    /*height: 380px;*/
-    /*text-align: left;*/
     margin: 20px auto;
     background: #fff;
     border-radius: 5px;
@@ -106,23 +101,13 @@
   }
 
   .card-link {
-    /*text-align: center;*/
-    /*border-top: 1px solid #eee;*/
     text-decoration: none;
     color: black;
   }
 
-  .card-link a {
-
-  }
 
   .card-link a:hover {
     color: #0090aa;
-  }
-  .date {
-    position: absolute;
-    right: 0;
-    bottom: 0;
   }
 
 </style>

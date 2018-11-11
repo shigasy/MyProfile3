@@ -27,10 +27,12 @@
     },
     computed: {
       isNav () {
-        return this.isActive ? this.nav.nav1 : this.nav.nav2
+        // return this.isActive ? this.nav.nav1 : this.nav.nav2
+        return this.isActive ? this.nav.nav2 : this.nav.nav1
       },
       main () {
-        return this.isActive ? this.nav.main1 : this.nav.main2
+        // return this.isActive ? this.nav.main1 : this.nav.main2
+        return this.isActive ? this.nav.main2 : this.nav.main1
       }
     },
     name: 'App',

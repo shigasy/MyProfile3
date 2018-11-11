@@ -27,11 +27,7 @@
 <style scoped>
 
   .contact {
-    /*display: inline-block;*/
     display: inline-block;
-    /*margin: 20px 0;*/
-    /*width: 10px;*/
-    /*text-align: center;*/
   }
 
   .icon {
