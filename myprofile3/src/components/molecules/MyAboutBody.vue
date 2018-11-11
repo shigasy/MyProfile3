@@ -1,31 +1,31 @@
 <template>
   <div class="body">
     <my-image></my-image>
-    <table class="test">
+    <table class="table">
       <tr>
-        <th>Name</th><td>MyPoZi</td>
+        <th><span class="maker">Name</span></th><td>MyPoZi</td>
       </tr>
       <tr>
-        <th>Age</th><td>20</td>
+        <th><span class="maker">Age</span></th><td>20</td>
       </tr>
       <tr>
-        <th>Location</th><td>Ishikawa Japan</td>
+        <th><span class="maker">Location</span></th><td>Ishikawa Japan</td>
       </tr>
       <tr>
-        <th>Job</th><td>大学2年生</td>
+        <th><span class="maker">Job</span></th><td>大学2年生</td>
       </tr>
       <tr>
-        <th>Love</th><td>プログラミング 自己分析</td>
+        <th><span class="maker">Love</span></th><td>プログラミング 自己分析</td>
       </tr>
       <tr>
-        <th>Twitter</th><td><a href="https://twitter.com/MyPoZi555">@mypozi555</a></td>
+        <th><span class="maker">Twitter</span></th><td><a href="https://twitter.com/MyPoZi555">@mypozi555</a></td>
       </tr>
       <tr>
-        <th>Github</th><td><a href="https://github.com/MyPoZi">MyPoZI</a></td>
+        <th><span class="maker">Github</span></th><td><a href="https://github.com/MyPoZi">MyPoZI</a></td>
       </tr>
     </table>
     <br>
-    <h3>大学卒業後は、東京でWeb系の仕事に就きたいです!!</h3>
+    <h3 style="color: snow">大学卒業後は、東京でWeb系の仕事に就きたいです!!</h3>
 
   </div>
 </template>
@@ -50,12 +50,17 @@
     width: 70%;
     margin: 30px auto;
     background: #4db6ac;
+    /*background: white;*/
     /*box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.25);*/
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
   }
-  .test {
+  .table {
     /*text-align: center;*/
     margin: 0 auto;
+  }
+  .maker {
+    background: linear-gradient(transparent 75%, #ff9393 75%);
+
   }
 
 

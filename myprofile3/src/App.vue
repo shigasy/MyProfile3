@@ -27,11 +27,9 @@
     },
     computed: {
       isNav () {
-        // return this.isActive ? this.nav.nav1 : this.nav.nav2
         return this.isActive ? this.nav.nav2 : this.nav.nav1
       },
       main () {
-        // return this.isActive ? this.nav.main1 : this.nav.main2
         return this.isActive ? this.nav.main2 : this.nav.main1
       }
     },
@@ -63,42 +61,8 @@
     margin: 10px;
   }
 
-  .main {
-    overflow:auto;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    height: 100vh;
-    width: 85%;
-    float: right;
-    text-align: center;
-    color: black;
-    /*background: #4db6ac;*/
-    /*background: #F4F5F7;*/
-    background: #fcfcf3;
-    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.25);
-  }
-
   .router-margin {
     margin: 40px 0;
-  }
-
-  .nav {
-    overflow:auto;
-    width: 15%;
-    float: left;
-    background: #37474f;
-    height: 100vh;
-    color: #949da1;
-  }
-
-  .close-nav {
-    overflow:auto;
-    width: 0;
-    float: left;
-    background: #37474f;
-    height: 100vh;
-    color: #949da1;
   }
 
   .animate-fixed {
