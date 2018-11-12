@@ -16,6 +16,12 @@
     width: 192px;
     height: 192px;
     border-radius: 96px;
-    /*filter: drop-shadow(5px 5px 5px #111111);*/
   }
+  @media (max-width: 670px) {
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+
 </style>

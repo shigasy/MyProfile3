@@ -50,8 +50,6 @@
     width: 70%;
     margin: 30px auto;
     background: #4db6ac;
-    /*background: white;*/
-    /*box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.25);*/
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
   }
   .table {

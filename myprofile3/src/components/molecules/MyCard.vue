@@ -30,31 +30,11 @@
     color: #333;
   }
 
-  .tech-tag {
-
-  }
-
   .card-text {
     text-align: left;
     color: #777;
     font-size: 14px;
     line-height: 1.5;
-  }
-
-  /*.use-tech {*/
-  /*margin: 10px;*/
-  /*color: #c2617e;*/
-  /*}*/
-
-  .date {
-    /*position: static;*/
-    /*margin: auto;*/
-    /*padding: 100px 0;*/
-    /*text-align: right;*/
-    /*margin-left: 150px;*/
-    /*right: 10px;*/
-    /*bottom: 50px;*/
-    /*color: red;*/
   }
 
 

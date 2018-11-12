@@ -19,10 +19,7 @@
     color: #fff;
     padding: 5px;
     border-radius: 4px;
-    /*text-align: right;*/
-    /*border-bottom-left-radius: 4px;*/
     margin: 0 10px 5px;
-    /*text-decoration: none;*/
   }
 
 </style>

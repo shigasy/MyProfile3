@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Home from '@/components/templates/MyHome'
-import About from '@/components/templates/MyAbout'
-import Work from '@/components/templates/MyWork'
-import Contact from '@/components/templates/MyContact'
+import Home from '@/components/templates/MyHomeView'
+import About from '@/components/templates/MyAboutView'
+import Work from '@/components/templates/MyWorksView'
+import Contact from '@/components/templates/MyContactView'
 import VueTyper from 'vue-typer'
 
 Vue.use(Router)

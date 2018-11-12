@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1><vue-typer text="Hello World. Welocome to MyPoZi's website." pre-erase-delay='5000' caret-animation="smooth"></vue-typer></h1>
+    <h1><vue-typer text="Hello World. Welcome to MyPoZi's website." :pre-erase-delay=5000 caret-animation="smooth"></vue-typer></h1>
   </div>
 
 </template>
