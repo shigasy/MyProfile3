@@ -10,6 +10,8 @@ import VueTyper from 'vue-typer'
 Vue.use(Router)
 Vue.use(VueTyper)
 
+
+
 export default new Router({
   routes: [
     {

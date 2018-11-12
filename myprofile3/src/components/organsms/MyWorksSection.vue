@@ -50,7 +50,7 @@
         </a>
       </div>
       <div class="card">
-        <a class="card-link" href="">
+        <a class="card-link" href="http://mypozi.com/website2/index.html">
           <img src="../../assets/myprofile2.jpg"/>
           <my-card title="MyProfile2"
                    description="ホームページ2作品目です。シングルページレイアウトのホームページが作りたいと思い作っていましたが、途中で動きをつけたいという考えになり、スクロールホームページを作りました。"
