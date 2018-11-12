@@ -1,1 +1,1 @@
-build/*.js linguist-language=Vue
+build/ linguist-documentation
