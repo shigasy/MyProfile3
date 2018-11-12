@@ -15,7 +15,6 @@
   img {
     width: 96px;
     height: 96px;
-    /*border-radius: 24px;*/
   }
 
 </style>

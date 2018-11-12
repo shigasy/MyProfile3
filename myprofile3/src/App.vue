@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <my-nav :class="isNav"></my-nav>
-    <a @click="toggle"><my-hamburger class="hamburger"></my-hamburger></a>
+    <a @click="toggle">
+      <my-hamburger class="hamburger"></my-hamburger>
+    </a>
     <div :class="main">
       <transition name="router-transition" enter-active-class="animate-fixed animated fadeInDown"
                   leave-active-class="animate-fixed animated fadeOutDown">
@@ -14,6 +16,20 @@
 <script>
   import MyNav from "@/components/organsms/MyNav"
   import MyHamburger from "@/components/atoms/MyHumburger"
+  import WebFont from 'webfontloader'
+
+  WebFont.load({
+    custom: {
+      families: [
+        'Lato',
+        'Noto Sans Japanese'
+      ],
+      urls: [
+        'https://fonts.googleapis.com/css?family=Lato',
+        'https://fonts.googleapis.com/css?family=Noto+Sans+JP'
+      ]
+    }
+  })
 
   export default {
     components: {
@@ -26,10 +42,10 @@
       }
     },
     computed: {
-      isNav () {
+      isNav() {
         return this.isActive ? this.nav.nav2 : this.nav.nav1
       },
-      main () {
+      main() {
         return this.isActive ? this.nav.main2 : this.nav.main1
       }
     },
@@ -48,16 +64,9 @@
   * {
     margin: 0;
     padding: 0;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-
+    font-family: 'Lato', 'Noto Sans Japanese', sans-serif;
   }
 
-  #app {
-    width: 100vm;
-    height: 100vh;
-    text-align: left;
-    margin: 0 auto;
-  }
   .hamburger {
     position: absolute;
     margin: 10px;
@@ -89,6 +98,7 @@
     color: #949da1;
     transition: all 0.4s ease 0s;
   }
+
   .nav2 {
     width: 0;
     height: 0;
@@ -98,7 +108,7 @@
   }
 
   .main1 {
-    overflow:auto;
+    overflow: auto;
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -110,10 +120,10 @@
     background: #fcfcf3;
     box-shadow: 5px 0 20px rgba(0, 0, 0, 0.25);
     transition: all 0.4s ease 0s;
-
   }
+
   .main2 {
-    overflow:auto;
+    overflow: auto;
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -126,11 +136,13 @@
     box-shadow: 5px 0 20px rgba(0, 0, 0, 0.25);
     transition: all 0.3s ease 0s;
   }
+
   /* タブレット */
-  @media (max-width: 1000px) {
+  @media (max-width: 1024px) {
     .nav1 {
       overflow: auto;
-      width: 15%;
+      width: 25%;
+      font-size: 150%;
       float: left;
       background: #37474f;
       height: 100vh;
@@ -152,7 +164,8 @@
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       height: 100vh;
-      width: 85%;
+      width: 75%;
+      font-size: 120%;
       float: right;
       text-align: center;
       color: black;
@@ -177,18 +190,20 @@
       transition: all 0.3s ease 0s;
     }
   }
+
   /* スマートフォン */
   @media (max-width: 670px) {
     .nav1 {
       overflow: auto;
       width: 30%;
-      float: top;
+      font-size: 70%;
+      float: left;
       background: #37474f;
       height: 100vh;
       color: #949da1;
       transition: all 0.4s ease 0s;
-      font-size: 70%;
     }
+
     .nav2 {
       width: 0;
       height: 0;
@@ -198,23 +213,24 @@
     }
 
     .main1 {
-      overflow:auto;
+      overflow: auto;
       font-family: 'Avenir', Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       height: 100vh;
       width: 70%;
+      font-size: 90%;
       float: right;
       text-align: center;
       color: black;
       background: #fcfcf3;
       box-shadow: 5px 0 20px rgba(0, 0, 0, 0.25);
       transition: all 0.4s ease 0s;
-      font-size: 90%;
 
     }
+
     .main2 {
-      overflow:auto;
+      overflow: auto;
       font-family: 'Avenir', Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;

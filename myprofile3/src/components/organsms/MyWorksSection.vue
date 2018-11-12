@@ -7,7 +7,7 @@
           <my-card title="MyProfile3"
                    description="ホームページ3作品目です。Vue.jsを用いてSPAを書きました。コンポーネント同士が疎結合になるようコンポーネント指向を心掛けました。"
                    useTech1="Vue.js"
-                   useTech2="HTML"
+                   useTech2="CSS"
                    date="2018/11/11"
                    class="card-content">
           </my-card>
@@ -32,7 +32,7 @@
                    description="本を見ながら、フレームワークを初めて使って作ったWebアプリです。本に載っている機能だけでなく、ページング機能、アカウント登録機能、ログイン、ログアウト機能、一般ユーザーの場合、編集や削除を行わせないための処理などを追加しました。"
                    useTech1="Django"
                    useTech2="Python"
-                   date="2018/10/1"class="card-content">
+                   date="2018/10/1" class="card-content">
 
           </my-card>
         </a>

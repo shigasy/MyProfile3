@@ -10,7 +10,6 @@
   import MyAboutSection from '@/components/organsms/MyAboutSection'
 
 
-
   export default {
     name: "MyAbout",
     components: {

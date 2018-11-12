@@ -26,11 +26,11 @@
     justify-content: center;
     align-items: center;
   }
+
   .nav-button {
     height: 3em;
     margin: 10px;
     text-align: center;
-
   }
 
 </style>

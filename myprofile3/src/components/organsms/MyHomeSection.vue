@@ -1,14 +1,17 @@
 <template>
   <div>
-    <h1><vue-typer text="Hello World. Welcome to MyPoZi's website." :pre-erase-delay=5000 caret-animation="smooth"></vue-typer></h1>
+    <h1>
+      <vue-typer text="Hello World. Welcome to MyPoZi's website." :pre-erase-delay=5000
+                 caret-animation="smooth"></vue-typer>
+    </h1>
   </div>
 
 </template>
 
 <script>
-    export default {
-        name: "MyHomeSection",
-    }
+  export default {
+    name: "MyHomeSection",
+  }
 </script>
 
 <style scoped>
