@@ -13,7 +13,7 @@
 
 <style scoped>
   .tag {
-    font-family: Helvetica, Arial, sans-serif;
+    /*font-family: Helvetica, Arial, sans-serif;*/
     background: #588fe5;
     display: inline-block;
     color: #fff;
