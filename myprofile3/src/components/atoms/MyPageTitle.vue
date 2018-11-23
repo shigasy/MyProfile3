@@ -5,10 +5,10 @@
 </template>
 
 <script>
-  export default {
-    name: "MyPageTitle",
-    props: ['title']
-  }
+export default {
+  name: 'MyPageTitle',
+  props: ['title']
+}
 </script>
 
 <style scoped>

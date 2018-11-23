@@ -9,9 +9,9 @@
 </template>
 
 <script>
-  export default {
-    name: "MyHomeSection",
-  }
+export default {
+  name: 'MyHomeSection'
+}
 </script>
 
 <style scoped>

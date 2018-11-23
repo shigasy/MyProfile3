@@ -6,17 +6,16 @@
 </template>
 
 <script>
-  import MyPageTitle from '@/components/atoms/MyPageTitle'
-  import MyAboutSection from '@/components/organsms/MyAboutSection'
+import MyPageTitle from '@/components/atoms/MyPageTitle'
+import MyAboutSection from '@/components/organsms/MyAboutSection'
 
-
-  export default {
-    name: "MyAbout",
-    components: {
-      MyAboutSection,
-      MyPageTitle
-    },
+export default {
+  name: 'MyAbout',
+  components: {
+    MyAboutSection,
+    MyPageTitle
   }
+}
 </script>
 
 <style scoped>

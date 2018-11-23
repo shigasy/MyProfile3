@@ -13,16 +13,16 @@
 </template>
 
 <script>
-  import MyTwitterIcon from '@/components/atoms/MyTwitterIcon'
-  import MyGithubIcon from '@/components/atoms/MyGithubIcon'
+import MyTwitterIcon from '@/components/atoms/MyTwitterIcon'
+import MyGithubIcon from '@/components/atoms/MyGithubIcon'
 
-  export default {
-    name: "MyContactSection",
-    components: {
-      MyTwitterIcon,
-      MyGithubIcon
-    }
+export default {
+  name: 'MyContactSection',
+  components: {
+    MyTwitterIcon,
+    MyGithubIcon
   }
+}
 </script>
 
 <style scoped>

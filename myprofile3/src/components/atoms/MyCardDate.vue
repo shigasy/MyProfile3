@@ -1,14 +1,13 @@
 <template>
   <div>
-    <h1>{{ navTitle }}</h1>
+    <small>{{ date }}</small>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'MyNavButton',
-  props: ['navTitle']
+  name: 'MyCardDate',
+  props: ['date']
 }
 </script>
 

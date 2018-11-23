@@ -5,9 +5,9 @@
 </template>
 
 <script>
-    export default {
-        name: "MyImage"
-    }
+export default {
+  name: 'MyImage'
+}
 </script>
 
 <style scoped>

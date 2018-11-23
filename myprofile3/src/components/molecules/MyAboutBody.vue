@@ -39,15 +39,15 @@
 </template>
 
 <script>
-  import MyImage from "@/components/atoms/MyImage"
+import MyImage from '@/components/atoms/MyImage'
 
-  export default {
-    name: "MyAboutBody",
-    components: {
-      MyImage
-    }
-
+export default {
+  name: 'MyAboutBody',
+  components: {
+    MyImage
   }
+
+}
 </script>
 
 <style scoped>

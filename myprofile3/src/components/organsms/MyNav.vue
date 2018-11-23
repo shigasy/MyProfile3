@@ -8,16 +8,16 @@
 </template>
 
 <script>
-  import MyNavButton from '@/components/molecules/MyNavButton'
-  import MyNavAvatar from '@/components/molecules/MyNavAvatar'
+import MyNavButton from '@/components/molecules/MyNavButton'
+import MyNavAvatar from '@/components/molecules/MyNavAvatar'
 
-  export default {
-    name: "MyNav",
-    components: {
-      MyNavButton,
-      MyNavAvatar
-    },
+export default {
+  name: 'MyNav',
+  components: {
+    MyNavButton,
+    MyNavAvatar
   }
+}
 </script>
 
 <style scoped>

@@ -16,14 +16,14 @@
 </template>
 
 <script>
-  import MyButton from '@/components/atoms/MyButton'
+import MyButton from '@/components/atoms/MyButton'
 
-  export default {
-    name: "MyNavButton",
-    components: {
-      MyButton
-    }
+export default {
+  name: 'MyNavButton',
+  components: {
+    MyButton
   }
+}
 </script>
 
 <style scoped>
@@ -57,6 +57,5 @@
     top: -webkit-calc(100% - 3px);
     top: calc(100% - 3px);
   }
-
 
 </style>

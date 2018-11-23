@@ -6,9 +6,9 @@
 </template>
 
 <script>
-  export default {
-    name: "MyAvatar",
-  }
+export default {
+  name: 'MyAvatar'
+}
 </script>
 
 <style scoped>

@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import VueAnalytics from "vue-analytics";
+import VueAnalytics from 'vue-analytics'
 
 Vue.config.productionTip = false
 

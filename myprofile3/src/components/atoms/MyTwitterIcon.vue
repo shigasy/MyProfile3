@@ -5,9 +5,9 @@
 </template>
 
 <script>
-    export default {
-        name: "MyTwitterIcon"
-    }
+export default {
+  name: 'MyTwitterIcon'
+}
 </script>
 
 <style scoped>

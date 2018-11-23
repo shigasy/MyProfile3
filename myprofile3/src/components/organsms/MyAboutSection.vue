@@ -5,15 +5,14 @@
 </template>
 
 <script>
-  import MyAboutBody from '@/components/molecules/MyAboutBody'
+import MyAboutBody from '@/components/molecules/MyAboutBody'
 
-
-  export default {
-    name: "MyAbout",
-    components: {
-      MyAboutBody
-    },
+export default {
+  name: 'MyAbout',
+  components: {
+    MyAboutBody
   }
+}
 </script>
 
 <style scoped>

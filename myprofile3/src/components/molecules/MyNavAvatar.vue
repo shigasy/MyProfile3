@@ -5,14 +5,14 @@
 </template>
 
 <script>
-  import MyAvatar from '@/components/atoms/MyAvatar'
+import MyAvatar from '@/components/atoms/MyAvatar'
 
-  export default {
-    name: "MyNavAvatar",
-    components: {
-      MyAvatar,
-    }
+export default {
+  name: 'MyNavAvatar',
+  components: {
+    MyAvatar
   }
+}
 </script>
 
 <style scoped>

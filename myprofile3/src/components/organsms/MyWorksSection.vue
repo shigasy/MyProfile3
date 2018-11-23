@@ -3,9 +3,21 @@
     <div class="card-section">
       <div class="card">
         <a class="card-link" href="">
+          <img src="../../assets/nya-napi.jpg"/>
+          <my-card title="Nya-nAPI"
+                   description="Go言語で何か制作してみたいと思い、URLのパラメータによって返すJSONを変化させるAPIを作りました。URLパラメータのvalueを100にすると【にゃーん】という文字列を100個生成します。"
+                   useTech1="Golang"
+                   useTech2="Json"
+                   date="2018/11/23"
+                   class="card-content">
+          </my-card>
+        </a>
+      </div>
+      <div class="card">
+        <a class="card-link" href="">
           <img src="../../assets/myprofile3.jpg"/>
           <my-card title="MyProfile3"
-                   description="ホームページ3作品目です。Vue.jsを用いてSPAを書きました。コンポーネント同士が疎結合になるようコンポーネント指向を心掛けました。"
+                   description="ホームページ3作品目です。Vue.jsを用いてSPAを書きました。AtomicDesignを用いて、コンポーネント同士が疎結合になるように心掛けました。またアニメーションも少しつけ、出来る限り飽きない仕様にしました。"
                    useTech1="Vue.js"
                    useTech2="CSS"
                    date="2018/11/11"
@@ -102,14 +114,14 @@
 </template>
 
 <script>
-  import MyCard from '@/components/molecules/MyCard'
+import MyCard from '@/components/molecules/MyCard'
 
-  export default {
-    name: "MyWorksSection",
-    components: {
-      MyCard,
-    }
+export default {
+  name: 'MyWorksSection',
+  components: {
+    MyCard
   }
+}
 </script>
 
 <style scoped>

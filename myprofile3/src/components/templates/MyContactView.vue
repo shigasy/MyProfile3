@@ -6,17 +6,16 @@
 </template>
 
 <script>
-  import MyPageTitle from '@/components/atoms/MyPageTitle'
-  import MyContactSection from '@/components/organsms/MyContactSection'
+import MyPageTitle from '@/components/atoms/MyPageTitle'
+import MyContactSection from '@/components/organsms/MyContactSection'
 
-
-  export default {
-    name: "MyContact",
-    components: {
-      MyContactSection,
-      MyPageTitle
-    },
+export default {
+  name: 'MyContact',
+  components: {
+    MyContactSection,
+    MyPageTitle
   }
+}
 </script>
 
 <style scoped>

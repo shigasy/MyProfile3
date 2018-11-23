@@ -14,48 +14,48 @@
 </template>
 
 <script>
-  import MyNav from "@/components/organsms/MyNav"
-  import MyHamburger from "@/components/atoms/MyHumburger"
-  import WebFont from 'webfontloader'
+import MyNav from '@/components/organsms/MyNav'
+import MyHamburger from '@/components/atoms/MyHumburger'
+import WebFont from 'webfontloader'
 
-  WebFont.load({
-    custom: {
-      families: [
-        'Lato',
-        'Noto Sans Japanese'
-      ],
-      urls: [
-        'https://fonts.googleapis.com/css?family=Lato',
-        'https://fonts.googleapis.com/css?family=Noto+Sans+JP'
-      ]
+WebFont.load({
+  custom: {
+    families: [
+      'Lato',
+      'Noto Sans Japanese'
+    ],
+    urls: [
+      'https://fonts.googleapis.com/css?family=Lato',
+      'https://fonts.googleapis.com/css?family=Noto+Sans+JP'
+    ]
+  }
+})
+
+export default {
+  components: {
+    MyNav,
+    MyHamburger
+  },
+  data () {
+    return {
+      isActive: true
     }
-  })
-
-  export default {
-    components: {
-      MyNav,
-      MyHamburger
+  },
+  computed: {
+    isNav () {
+      return this.isActive ? this.nav.nav2 : this.nav.nav1
     },
-    data() {
-      return {
-        isActive: true,
-      }
-    },
-    computed: {
-      isNav() {
-        return this.isActive ? this.nav.nav2 : this.nav.nav1
-      },
-      main() {
-        return this.isActive ? this.nav.main2 : this.nav.main1
-      }
-    },
-    name: 'App',
-    methods: {
-      toggle: function () {
-        this.isActive = !this.isActive
-      }
+    main () {
+      return this.isActive ? this.nav.main2 : this.nav.main1
+    }
+  },
+  name: 'App',
+  methods: {
+    toggle: function () {
+      this.isActive = !this.isActive
     }
   }
+}
 </script>
 
 <style>

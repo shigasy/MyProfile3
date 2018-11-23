@@ -10,8 +10,6 @@ import VueTyper from 'vue-typer'
 Vue.use(Router)
 Vue.use(VueTyper)
 
-
-
 export default new Router({
   routes: [
     {
@@ -24,7 +22,7 @@ export default new Router({
     },
     {
       path: '/work',
-      component: Work,
+      component: Work
     },
     {
       path: '/contact',
@@ -33,6 +31,6 @@ export default new Router({
     {
       path: '/*',
       component: Home
-    },
+    }
   ]
 })
