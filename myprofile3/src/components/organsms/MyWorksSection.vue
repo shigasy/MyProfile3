@@ -2,7 +2,7 @@
   <div>
     <div class="card-section">
       <div class="card">
-        <a class="card-link" href="">
+        <a class="card-link" href="https://github.com/MyPoZi/Nya-nAPI">
           <img src="../../assets/nya-napi.jpg"/>
           <my-card title="Nya-nAPI"
                    description="Go言語で何か制作してみたいと思い、URLのパラメータによって返すJSONを変化させるAPIを作りました。URLパラメータのvalueを100にすると【にゃーん】という文字列を100個生成します。"
