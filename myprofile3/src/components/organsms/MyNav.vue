@@ -2,7 +2,7 @@
   <div>
     <my-nav-avatar class="avatar"></my-nav-avatar>
     <div>
-      <my-nav-button navTitle="Home" class="nav-button"></my-nav-button>
+      <my-nav-button class="nav-button"></my-nav-button>
     </div>
   </div>
 </template>

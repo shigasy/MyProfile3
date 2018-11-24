@@ -7,7 +7,7 @@
       <my-button navTitle="About" class="link"></my-button>
     </router-link>
     <router-link to="/work">
-      <my-button navTitle="Work" class="link"></my-button>
+      <my-button navTitle="Works" class="link"></my-button>
     </router-link>
     <router-link to="/contact">
       <my-button navTitle="Contact" class="link"></my-button>
