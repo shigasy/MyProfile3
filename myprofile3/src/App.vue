@@ -65,7 +65,6 @@ export default {
     margin: 0;
     padding: 0;
     font-family: 'Lato', 'Noto Sans Japanese', sans-serif;
-    /*-webkit-overflow-scrolling: touch;*/
   }
 
   .hamburger {

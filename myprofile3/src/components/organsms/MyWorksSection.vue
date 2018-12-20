@@ -139,6 +139,7 @@ export default {
 <style scoped>
   * {
     transition: all 0.40s ease 0s;
+    -webkit-overflow-scrolling: touch;
   }
 
   img {
