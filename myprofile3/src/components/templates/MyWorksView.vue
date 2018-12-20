@@ -19,5 +19,9 @@ export default {
 </script>
 
 <style scoped>
+  * {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 
 </style>
