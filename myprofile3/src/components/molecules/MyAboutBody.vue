@@ -57,6 +57,7 @@ export default {
 
   .body {
     width: 70%;
+    max-width: 750px;
     margin: 30px auto;
     background: #4db6ac;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
