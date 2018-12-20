@@ -1,12 +1,10 @@
 <template>
   <div>
-    <div>
       <my-card-title :title=title></my-card-title>
       <my-tech-tag v-if="useTech1" :tag=useTech1></my-tech-tag>
       <my-tech-tag v-if="useTech2" :tag=useTech2></my-tech-tag>
       <my-card-text :description=description></my-card-text>
       <my-card-date :date=date></my-card-date>
-    </div>
   </div>
 </template>
 
