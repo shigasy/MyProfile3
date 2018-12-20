@@ -140,7 +140,7 @@ export default {
   /* タブレット */
   @media (max-width: 1024px) {
     .nav1 {
-      overflow: auto;
+      /*overflow: auto;*/
       width: 25%;
       font-size: 150%;
       float: left;
@@ -159,7 +159,7 @@ export default {
     }
 
     .main1 {
-      overflow: auto;
+      /*overflow: auto;*/
       font-family: 'Avenir', Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -176,7 +176,7 @@ export default {
     }
 
     .main2 {
-      overflow: auto;
+      /*overflow: auto;*/
       font-family: 'Avenir', Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -194,7 +194,7 @@ export default {
   /* スマートフォン */
   @media (max-width: 670px) {
     .nav1 {
-      overflow: auto;
+      /*overflow: auto;*/
       width: 30%;
       font-size: 70%;
       float: left;
@@ -213,7 +213,7 @@ export default {
     }
 
     .main1 {
-      overflow: auto;
+      /*overflow: auto;*/
       font-family: 'Avenir', Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -230,7 +230,7 @@ export default {
     }
 
     .main2 {
-      overflow: auto;
+      /*overflow: auto;*/
       font-family: 'Avenir', Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;

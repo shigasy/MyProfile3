@@ -28,7 +28,6 @@ export default {
 
 <style scoped>
   * {
-    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
 

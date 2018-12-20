@@ -139,7 +139,6 @@ export default {
 <style scoped>
   * {
     transition: all 0.40s ease 0s;
-    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
 
