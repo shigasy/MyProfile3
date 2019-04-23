@@ -2,6 +2,30 @@
   <div>
     <div class="card-section">
       <div class="card">
+        <a class="card-link" href="https://michiakr.com/">
+          <img src="../../assets/michiakr.png"/>
+          <my-card title="ミチアカリ"
+                   description='書籍の学習ロードマップ共有サイトです。技術書を選ぶ時にどれを選べばよいかわからないなどの問題を解決するために作りました。デザインはフラットデザインを意識してシンプルで見やすいデザインに仕上げました。またSSRを使い、レスポンスを早くするなど工夫しました。'
+                   useTech1="Laravel"
+                   useTech2="Nuxt.js"
+                   date="2019/4/12"
+                   class="card-content">
+          </my-card>
+        </a>
+      </div>
+      <div class="card">
+        <a class="card-link" href="https://comment-maker.site/">
+          <img src="../../assets/comment-maker.png"/>
+          <my-card title="単行本のコメントメーカー"
+                   description='LaravelとVue.jsを用いたSPAです。ユーザーが選んだ画像とコメントで漫画の単行本によくある作者コメントのようなものを作成できます。 多くの人が面白そうと使ってくれましたが、価値のあるコンテンツを生むことができず、その後継続して使ってくれる人はいない経験ができました。'
+                   useTech1="Laravel"
+                   useTech2="Vue.js"
+                   date="2019/3/28"
+                   class="card-content">
+          </my-card>
+        </a>
+      </div>
+      <div class="card">
         <a class="card-link" href="https://letter-memory.site/">
           <img src="../../assets/letter-memory.png"/>
           <my-card title="LetterMemory"

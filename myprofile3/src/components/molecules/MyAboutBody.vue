@@ -16,7 +16,7 @@
       </tr>
       <tr>
         <th><span class="maker">Job</span></th>
-        <td>大学2年生</td>
+        <td>大学3年生</td>
       </tr>
       <tr>
         <th><span class="maker">Love</span></th>
